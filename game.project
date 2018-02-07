@@ -1,0 +1,21 @@
+[project]
+title = Bishop
+
+[library]
+include_dirs = bishop
+
+[input]
+gamepads = /builtins/input/default.gamepadsc
+game_binding = /example/example.input_bindingc
+
+[bootstrap]
+main_collection = /example/example.collectionc
+
+[display]
+width = 800
+height = 600
+variable_dt = 1
+
+[script]
+shared_state = 1
+
